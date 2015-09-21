@@ -45,5 +45,5 @@ RUN mkdir /opt && \
     rm -rf ${JAVA_PACKAGE}-${JAVA_VERSION_MAJOR}u${JAVA_VERSION_MINOR}-linux-x64.tar.gz /var/cache/apk/*
 
 # Set environment
-ENV JAVA_HOME /opt/jre
+ENV JAVA_HOME /opt/jdk
 ENV PATH ${PATH}:${JAVA_HOME}/bin
